@@ -40,6 +40,8 @@ header .menu div {
     background: #FFFFFF;
 }
 header .youtubeIcon {
+    min-height: 20px;
+    min-width: 90px;
     max-height: 20px;
     max-width: 90px;
 }
@@ -48,11 +50,13 @@ header .youtubeIcon #youtube-paths {
     fill: white;
 }
 header .search {
-    padding-right: 50px;
+    width: 100%;
+    max-width: 570px;
+    padding-left: 50px;
     display: flex;
 }
 header #searchForm {
-    width: 572px;
+    width: 100%;
     height: 40px;
     position: relative;
     background: #121212;
@@ -69,25 +73,9 @@ header #searchForm  input {
     font-weight: 300;
     background: transparent;
 }
-header #searchForm input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+header #searchForm input::-webkit-input-placeholder {
     color:    #888888;
 }
-/* header #searchForm input:-moz-placeholder,
-header #searchForm input::-moz-placeholder,
-header #searchForm input:-ms-input-placeholder,
-header #searchForm input::-ms-input-placeholder,
-header #searchForm input::placeholder {
-    color:    #888888;
-    opacity:  1;
-} */
-/* header #searchForm input::-webkit-input-placeholder,
-header #searchForm input::-moz-placeholder,
-header #searchForm input::-ms-input-placeholder,
-header #searchForm input::placeholder {
-    color: #888888;
-    color: #FF0000;
-    opacity: 1;
-} */
 header #searchForm  input:focus {
     border: 1px solid #1C61B8;
 }
@@ -124,8 +112,8 @@ header #searchStart .searchIcon {
 }
 header #searchVoice {
     margin-left: 10px;
-    width: 40px;
-    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
