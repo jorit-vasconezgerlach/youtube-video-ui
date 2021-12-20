@@ -1,6 +1,7 @@
-let searchBox = document.getElementById('searchBox');
 let searchForm = document.getElementById('searchForm');
+let searchBox = document.getElementById('searchBox');
 
 function clearSearch() {
-    console.log('helllo');
+    searchBox.value = '';
+    searchBox.focus();
 }
