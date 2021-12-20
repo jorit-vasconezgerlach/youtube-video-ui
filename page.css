@@ -51,7 +51,7 @@ header .youtubeIcon #youtube-paths {
 }
 header .search {
     width: 100%;
-    max-width: 570px;
+    max-width: 740px;
     padding-left: 50px;
     display: flex;
 }
@@ -98,7 +98,7 @@ header #searchForm .delete svg {
     fill: white;
 }
 header #searchStart {
-    width: 64px;
+    width: 75px;
     height: 40px;
     display: flex;
     align-items: center;
